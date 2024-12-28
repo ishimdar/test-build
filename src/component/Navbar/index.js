@@ -79,7 +79,7 @@ export default function Navbar() {
               {navbarData.map((item) => {
                 return (
                   <li className="nav-item" key={item.key}>
-                    <a
+                    {/* <a
                       className={`nav-link ${
                         active === item.id ? "active" : ""
                       }`}
@@ -88,7 +88,17 @@ export default function Navbar() {
                       onClick={(e) => handleClick(item)}
                     >
                       {item.text}
-                    </a>
+                    </a> */}
+                    <button
+                      className={`nav-link ${
+                        active === item.id ? "active" : ""
+                      }`}
+                    //   aria-current="page"
+                    //   href={`#${item.id}`}
+                      onClick={(e) => handleClick(item)}
+                    >
+                      {item.text}
+                    </button>
                   </li>
                 );
               })}
