@@ -94,9 +94,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-user"
                     >
                       <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -112,9 +112,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-map-pin"
                     >
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -130,9 +130,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-mail"
                     >
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -148,9 +148,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-calendar"
                     >
                       <rect
@@ -175,9 +175,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-phone-call"
                     >
                       <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -192,9 +192,9 @@ export default function UserProfile() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       className="feather feather-file-text"
                     >
                       <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -276,9 +276,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-image"
                       >
                         <rect
@@ -315,9 +315,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-globe"
                       >
                         <circle cx="12" cy="12" r="10"></circle>
@@ -347,9 +347,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-code"
                       >
                         <polyline points="16 18 22 12 16 6"></polyline>
@@ -379,9 +379,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-smartphone"
                       >
                         <rect
@@ -418,9 +418,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-navigation"
                       >
                         <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
@@ -449,9 +449,9 @@ export default function UserProfile() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-bell"
                       >
                         <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
@@ -522,9 +522,9 @@ export default function UserProfile() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-map-pin"
                   >
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -547,9 +547,9 @@ export default function UserProfile() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-phone"
                   >
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -571,9 +571,9 @@ export default function UserProfile() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-mail"
                   >
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -596,9 +596,9 @@ export default function UserProfile() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     className="feather feather-clock"
                   >
                     <circle cx="12" cy="12" r="10"></circle>
@@ -667,7 +667,7 @@ export default function UserProfile() {
                     </div>
                   </li>
                   <li>
-                    <time className="cbp_tmtime" datetime="2017-11-03T13:22">
+                    <time className="cbp_tmtime" dateTime="2017-11-03T13:22">
                       <span>Apr 2016 - Oct 2018</span>{" "}
                     </time>
                     <div className="cbp_tmicon bg-green">
@@ -683,7 +683,7 @@ export default function UserProfile() {
                     </div>
                   </li>
                   <li>
-                    <time className="cbp_tmtime" datetime="2017-10-22T12:13">
+                    <time className="cbp_tmtime" dateTime="2017-10-22T12:13">
                       <span>Aug 2014 - Apr 2016</span>
                     </time>
                     <div className="cbp_tmicon bg-blush">
@@ -750,7 +750,7 @@ export default function UserProfile() {
                   </div>
                 </li> */}
                   <li>
-                    <time className="cbp_tmtime" datetime="2017-11-03T13:22">
+                    <time className="cbp_tmtime" dateTime="2017-11-03T13:22">
                       <span>2005 -2007</span>{" "}
                     </time>
                     <div className="cbp_tmicon bg-green">
@@ -765,7 +765,7 @@ export default function UserProfile() {
                     </div>
                   </li>
                   <li>
-                    <time className="cbp_tmtime" datetime="2017-10-22T12:13">
+                    <time className="cbp_tmtime" dateTime="2017-10-22T12:13">
                       <span>2003 - 2005</span>
                     </time>
                     <div className="cbp_tmicon bg-blush">
@@ -799,9 +799,9 @@ export default function UserProfile() {
                   width="600"
                   height="450"
                   style={{ border: 0 }}
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                   title="myFrame"
                 ></iframe>
               </div>

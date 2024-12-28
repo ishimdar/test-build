@@ -59,7 +59,7 @@ export default function Navbar() {
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#aboutMe">
+          <a className="navbar-brand" href="#">
             Ishimdar Ahamad
           </a>
           <button
@@ -79,7 +79,7 @@ export default function Navbar() {
               {navbarData.map((item) => {
                 return (
                   <li className="nav-item" key={item.key}>
-                    {/* <a
+                    <a
                       className={`nav-link ${
                         active === item.id ? "active" : ""
                       }`}
@@ -88,17 +88,7 @@ export default function Navbar() {
                       onClick={(e) => handleClick(item)}
                     >
                       {item.text}
-                    </a> */}
-                    <button
-                      className={`nav-link ${
-                        active === item.id ? "active" : ""
-                      }`}
-                    //   aria-current="page"
-                    //   href={`#${item.id}`}
-                      onClick={(e) => handleClick(item)}
-                    >
-                      {item.text}
-                    </button>
+                    </a>
                   </li>
                 );
               })}
