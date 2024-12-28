@@ -34,13 +34,13 @@ const navbarData = [
 ];
 
 export default function Navbar() {
-  const [address, setAddress] = useState("");
+//   const [address, setAddress] = useState("");
   const [active, setActive] = useState("aboutMe");
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const loc = window.location;
-    setAddress(loc);
+    // setAddress(loc);
   }, []);
 
   const handleClick = (item) => {
