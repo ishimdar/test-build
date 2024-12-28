@@ -39,7 +39,7 @@ export default function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const loc = window.location;
+    // const loc = window.location;
     // setAddress(loc);
   }, []);
 
