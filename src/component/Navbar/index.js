@@ -81,7 +81,7 @@ export default function Navbar() {
                   <li className="nav-item" key={item.key}>
                     <a
                       className={`nav-link ${
-                        active == item.id ? "active" : ""
+                        active === item.id ? "active" : ""
                       }`}
                       aria-current="page"
                       href={`#${item.id}`}
