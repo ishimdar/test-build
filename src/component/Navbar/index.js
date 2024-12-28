@@ -59,7 +59,7 @@ export default function Navbar() {
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#aboutMe">
             Ishimdar Ahamad
           </a>
           <button
