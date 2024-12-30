@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+// import resume from "../../assets/download/Ishimdar-Developer.pdf";
+import resume from "../../assets/download/Ishimdar-Developer.pdf";
+import './index.css';
 
 const navbarData = [
   {
@@ -34,7 +37,7 @@ const navbarData = [
 ];
 
 export default function Navbar() {
-//   const [address, setAddress] = useState("");
+  //   const [address, setAddress] = useState("");
   const [active, setActive] = useState("aboutMe");
   const [isMobile, setIsMobile] = useState(false);
 
@@ -45,12 +48,12 @@ export default function Navbar() {
 
   const handleClick = (item) => {
     setActive(item.id);
-    setIsMobile(false)
+    setIsMobile(false);
   };
 
   const handleCliclMob = () => {
-    setIsMobile(!isMobile)
-  }
+    setIsMobile(!isMobile);
+  };
 
   return (
     <header>
@@ -74,7 +77,10 @@ export default function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className={`collapse navbar-collapse ${isMobile ? 'show':''}`} id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${isMobile ? "show" : ""}`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {navbarData.map((item) => {
                 return (
@@ -93,6 +99,15 @@ export default function Navbar() {
                 );
               })}
             </ul>
+            {/* <span class="navbar-text">
+                Download Resume
+            </span> */}
+            {/* <button type="button" class="btn btn-primary">Primary</button> */}
+            <div className="download">
+                <a href={resume} target="_blank" rel="noopener noreferrer">
+                <i className="fas fa-cloud-download-alt"></i> Download Resume
+                </a>
+            </div>            
           </div>
         </div>
       </nav>

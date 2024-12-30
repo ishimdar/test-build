@@ -1,0 +1,13 @@
+.download{
+    padding: 3px 13px;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #888;
+    display: inline-block;
+    background-color: rgba(37, 131, 253, 0.07);
+    a{
+        color: #2583fd !important;
+    }
+    
+}
