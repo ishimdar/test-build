@@ -12,7 +12,7 @@ import MyResume from "./MyResume";
 import EducationalDetails from "./EducationalDetails";
 import ContactMe from "./ContactMe";
 import AboutMe from "./AboutMe";
-import MyServices from "./MyServices";
+// import MyServices from "./MyServices";
 
 
 export default function UserProfile() {
