@@ -8,9 +8,9 @@ export default function ContactMe() {
   const [showModal, setShowModal] = useState(false);
   const [senderName, setSenderName] = useState('');
   
-  const handleClickOpen = () => {
-    setShowModal(true);
-  }
+  // const handleClickOpen = () => {
+  //   setShowModal(true);
+  // }
 
   const handleClickClose = () => {
     reset();
