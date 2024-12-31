@@ -23,9 +23,7 @@ export default function EducationalDetails() {
                   <span>
                     <h4>B.Tech (Information Technology)</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Quidem voluptatibus, maiores suscipit sequi veritatis
-                      saepe aspernatur.
+                    Institute of Technology & Management (ITM, GIDA, Gorakhpur)AL-1, Sector 7, GIDA, Gorakhpur.
                     </p>
                   </span>{" "}
                 </div>

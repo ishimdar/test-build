@@ -62,7 +62,7 @@ export default function MyResume() {
                   <i className="fas fa-globe-africa"></i>
                 </div>
                 <div className="cbp_tmlabel">
-                  <h4>Product Engineer</h4>
+                  <h4>Product Engineer in Qilo Technolgies Pvt. Ltd.</h4>
                   <p>
                     Responsive HTML conversion with Dreamweaver Using CSS
                     jQuery, java script, Jquery and AngularJs.
