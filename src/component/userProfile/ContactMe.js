@@ -1,35 +1,36 @@
-import React from "react";
-// import React, { useState } from "react";
-// import { useForm } from "@formspree/react";
-// import ModalPopup from "./ModalPopup";
+// import React from "react";
+import React, { useState } from "react";
+import { useForm } from "@formspree/react";
+import ModalPopup from "./ModalPopup";
 
 export default function ContactMe() {
 
-  // const [state, handleSubmit, reset] = useForm('mvgoeoyj');  
-  // const [showModal, setShowModal] = useState(false);
-  // const [senderName, setSenderName] = useState('');
+  const [state, handleSubmit, reset] = useForm('mvgoeoyj');  
+  const [showModal, setShowModal] = useState(false);
+  const [senderName, setSenderName] = useState('');
   
 
-  // const handleClickClose = () => {
-  //   reset();
-  //   setShowModal(false);    
-  // }
+  const handleClickClose = () => {
+    reset();
+    setShowModal(false);    
+  }
 
-  // const onSubmit = async (event) => {
-  //   event.preventDefault();
+  const onSubmit = async (event) => {
+    event.preventDefault();
 
-  //   try {
-  //     await handleSubmit(event); // Submit the form
-  //     if (state.errors == null) {
-  //       setShowModal(true);
-  //     }
-  //   } catch (error) {
-  //     console.error('Form submission error:', error);
-  //   }
-  // };
+    try {
+      await handleSubmit(event); // Submit the form
+      if (state.errors == null) {
+        setShowModal(true);
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+    }
+  };
 
   return (
     <>
+      {console.log('state-----------', state)}
       <div id="contactUs" className="row right-title pt-4">
         <div className="col-sm-1 col-2 icob">
           <i className="fas fa-graduation-cap"></i>
@@ -56,9 +57,9 @@ export default function ContactMe() {
         <div className="col-sm-6">
           <form
             className="form contact-form"
-            action="https://formspree.io/f/mvgoeoyj"
-            method="POST"
-            // onSubmit={onSubmit}
+            // action="https://formspree.io/f/mvgoeoyj"
+            // method="POST"
+            onSubmit={onSubmit}
           >
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
@@ -69,7 +70,7 @@ export default function ContactMe() {
                 name="name"
                 id="name"
                 className="form-control"
-                // onChange={(e) => setSenderName(e.target.value)}
+                onChange={(e) => setSenderName(e.target.value)}
               />
             </div>
             <div className="mb-3">
@@ -95,19 +96,23 @@ export default function ContactMe() {
               ></textarea>
             </div>
             <div className="mb-3 text-sm-end">              
-              <button type="submit" className="btn block btn-primary">
-                Submit
-              </button>
-              {/* <button type="submit" disabled={state.submitting} className="btn block btn-primary">
+              {/* <button type="submit" className="btn block btn-primary">
                 Submit
               </button> */}
+              <button type="submit" disabled={state.submitting} className="btn block btn-primary">
+                Submit
+              </button>
             </div>            
           </form>
         </div>
-        {/* {state?.errors?.length > 0 && <p>Error: {state.errors[0].message}</p>}
+        {
+          // console.log(state?.errors?.fieldErrors[0]?.value[0]?.message)
+          // console.log('state?.errors?.fieldErrors[0]', state?.errors?.fieldErrors[0])
+        }
+        {/* {state?.errors?.length > 0 && <p>Error: {state?.errors?.fieldErrors[0]?.value[0]?.message}</p>} */}
         {
           showModal && <ModalPopup handleClickClose={handleClickClose} senderName={senderName} />
-        } */}
+        }
       </div>
     </>
   );

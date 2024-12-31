@@ -28,6 +28,7 @@
     line-height: 21px;
     border-radius: 4px;
     margin-bottom: 5px;
+    font-size: 13px;
 }
 
 .modal.show{
